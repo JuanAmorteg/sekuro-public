@@ -1,4 +1,4 @@
-"Title","Author","Description","Tags","Category","Product","Service","How To Investigate","Known False Positives","Queries"
+"Title","Author","Description","Tags","Category","Product","Service","How To Investigate","Known False Positives","Query"
 "Auditing Configuration Changes on Linux Host","Mikhail Larin, oscd.community","Detect changes in auditd configuration files","attack.defense_evasion, attack.t1562.006","Not classified","linux","auditd","Review the logs from the auditd service on the Linux host. 
 Look for any changes in the specified configuration files (/etc/audit/*, /etc/libaudit.conf, /etc/audisp/*). 
 Check if the changes were made by legitimate administrative activity. 
